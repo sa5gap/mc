@@ -417,7 +417,7 @@ static vfs_path_t *
 exec_extension (WPanel * panel, void *target, const vfs_path_t * filename_vpath,
                 const char *lc_data, int start_line)
 {
-    GString *shell_string,  *export_variables;
+    GString *shell_string, *export_variables;
     vfs_path_t *script_vpath = NULL;
     int cmd_file_fd;
     FILE *cmd_file;
