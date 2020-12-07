@@ -4000,7 +4000,7 @@ edit_execute_cmd (WEdit * edit, long command, int char_for_insertion)
         case CK_DeleteToEnd:
             format_paragraph (edit, FALSE);
             edit->force |= REDRAW_PAGE;
-        break;
+            break;
         default:
             break;
         }
