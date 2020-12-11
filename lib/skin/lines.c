@@ -64,6 +64,8 @@ mc_skin_lines_parse_ini_file (mc_skin_t * mc_skin)
         mc_skin_hardcoded_space_lines (mc_skin);
     else if (mc_global.tty.ugly_line_drawing)
         mc_skin_hardcoded_ugly_lines (mc_skin);
+    
+    mc_skin_hardcoded_space_lines (mc_skin);
 
     /* single lines */
     mc_tty_frm[MC_TTY_FRM_VERT] = mc_skin_lines_load_frm (mc_skin, "vert");
