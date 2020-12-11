@@ -47,3 +47,8 @@ make.gcc
 make.tcc
 tests/src/editor/test-data.txt
 tests/src/vfs/extfs/helpers-list/data/config.sh
+
+aur/mc
+aur/src
+aur/pkg
+aur/*.tar.zst
